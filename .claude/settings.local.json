@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /tmp/lab3doc)",
+      "Bash(cp \"Lab 3.docx\" /tmp/lab3doc/lab3.zip)",
+      "Read(//tmp/**)",
+      "Bash(unzip -o lab3.zip -d extracted)",
+      "Bash(ls extracted/word/media/)",
+      "Bash(python3 -c ' *)",
+      "Bash(mkdir -p \"D:/mad_prac/.tmp_lab3img\")",
+      "Bash(cp /tmp/lab3doc/extracted/word/media/* \"D:/mad_prac/.tmp_lab3img/\")"
+    ]
+  }
+}
